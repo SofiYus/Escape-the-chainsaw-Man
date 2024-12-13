@@ -15,7 +15,7 @@ public class Door : MonoBehaviour
 
 
     private bool inReach;
-
+    // Sofiya wrote a part of this code
 
     void Start()
     {
