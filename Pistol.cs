@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pistol : MonoBehaviour
 {
-// Sofiya wrote this part of the code 
+// Sofiya wrote this part of the code and edited the values of our properties
     public int maxAmmoInMag = 10;       // Maximum ammo capacity in the magazine
     public int maxAmmoInStorage = 30;   // Maximum ammo capacity in the storage
     public float shootCooldown = 0.5f;  // Cooldown time between shots
@@ -68,7 +68,7 @@ public class Pistol : MonoBehaviour
             shootTimer -= Time.deltaTime;
         }
     }
-// Sofiya wrote this part of the code 
+// Sofiya wrote this part of the code to start shooting
     void Shoot()
     {
         // Check if there is ammo in the magazine
@@ -127,7 +127,7 @@ public class Pistol : MonoBehaviour
             Debug.Log("Cannot shoot");
         }
     }
-// Sofiya wrote this part of the code 
+// Sofiya wrote this part of the code to reload the pistol
     void Reload()
     {
         switchCooldown -= Time.deltaTime;
