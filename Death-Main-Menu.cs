@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-// Sofiya edited this part
+// Sofiya edited this part to quit game if player dies
     public void B_LoadScene()
     {
         SceneManager.LoadScene("Game");
