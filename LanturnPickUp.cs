@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-// Sofiya wrote this part of the code 
+
 public class LanturnPickUp : MonoBehaviour
 {
     private GameObject OB;
